@@ -8,7 +8,9 @@
 
 {% block body_block %}
 		<h1>About</h1>
-
+		<div> 
+			{{ boldmessage }}
+		</div>
 		<div>
 			This tutorial has been put together by Hannah Fairlie <br />
 		</div>
@@ -16,4 +18,6 @@
 			<img src="{{ MEDIA_URL }}cat.jpg" %}"
 				alt = Picture of cat" />
 			<img src="{% static "images/rango.jpg" %}" alt="Picture of Rango" />
+		</div>
+			<p>visits: {{visits}}</p>
 {% endblock %}
