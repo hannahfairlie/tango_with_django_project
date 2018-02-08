@@ -33,6 +33,8 @@ SECRET_KEY = 'ob$r(!o)j+!#vmn54pt3+)8qa(3rn2s0em$ldenmux-es9-j*!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+
 ALLOWED_HOSTS = []
 
 
